@@ -2,6 +2,8 @@
 
 ## 📌 Overview
 
+A machine learning project implementing linear regression from scratch and validating it against scikit-learn.
+
 This project implements **Linear Regression from scratch** using **Gradient Descent** to predict house prices based on features such as house size and number of bedrooms.
 
 The goal of this project is to understand how machine learning models work internally without relying on libraries like scikit-learn.
