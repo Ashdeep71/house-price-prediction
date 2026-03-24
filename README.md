@@ -93,7 +93,7 @@ It helps visualize how gradient descent moves towards the minimum.
 
 ### Actual vs Predicted Prices (Scikit Learn Model)
 
-![Prediction Graph](scikitLearn.png)
+![Prediction Graph](images/scikitLearn.png)
 
 - Blue points represent predicted values
 - Red line represents perfect predictions (y = x)
