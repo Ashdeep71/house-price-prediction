@@ -82,9 +82,18 @@ It helps visualize how gradient descent moves towards the minimum.
 
 ---
 
-### Actual vs Predicted Prices
+### Actual vs Predicted Prices (Original Model)
 
 ![Prediction Graph](images/ActualVsPredicted.png)
+
+- Blue points represent predicted values
+- Red line represents perfect predictions (y = x)
+
+---
+
+### Actual vs Predicted Prices (Scikit Learn Model)
+
+![Prediction Graph](scikitLearn.png)
 
 - Blue points represent predicted values
 - Red line represents perfect predictions (y = x)
@@ -103,15 +112,15 @@ Mean Squared Error (MSE) is used to evaluate model performance.
 - Effect of **learning rate** on convergence
 - Understanding how gradient descent updates parameters
 - Difference between normalized values and real-world values
+- Implementation using Scikit learn libarary
 
 ---
 
-## 🔮 Future Improvements
+## 🔁 Model Comparison
 
-- Implement model using **scikit-learn** for comparison
-- Add train/test split for better evaluation
-- Include more features for better predictions
-- Improve model performance
+The project includes both a custom implementation (`main.py`) and a scikit-learn implementation (`mainScikit.py`) for comparison.
+
+Both models produce similar predictions, helping validate the correctness of the gradient descent implementation.
 
 ---
 
@@ -121,6 +130,7 @@ Mean Squared Error (MSE) is used to evaluate model performance.
 - NumPy
 - Pandas
 - Matplotlib
+- Scikit Learn
 
 ---
 
@@ -129,6 +139,7 @@ Mean Squared Error (MSE) is used to evaluate model performance.
 ```bash
 pip install numpy pandas matplotlib
 python main.py
+python mainScikit.py
 ```
 
 ---

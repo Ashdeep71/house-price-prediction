@@ -148,6 +148,7 @@ plt.show()
 y_pred= np.dot(x_dataset, w) + b
 y_pred_real = y_pred * std_y + mean_y
 y_real = y_dataset * std_y + mean_y
+# print(y_pred_real)
 
 plt.scatter(y_real, y_pred_real)
 plt.plot(y_real, y_real, color='red')
@@ -155,6 +156,11 @@ plt.xlabel("Actual Price ($)")
 plt.ylabel("Predicted Price ($)")
 plt.title("Actual vs Predicted(Real Prices)")
 plt.show()
+
+
+mse = np.mean((y_pred_real - y_real)**2)
+
+print("Your model MSE:", mse)
 
 
 
