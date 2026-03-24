@@ -10,15 +10,14 @@ The goal of this project is to understand how machine learning models work inter
 
 ## ⚙️ Features
 
-* Implemented Linear Regression from scratch
-* Cost Function (Mean Squared Error)
-* Gradient Calculation
-* Gradient Descent Optimization
-* Feature Scaling using **Z-score Normalization**
-* Visualization of:
-
-  * Cost vs Iterations
-  * Actual vs Predicted Prices
+- Implemented Linear Regression from scratch
+- Cost Function (Mean Squared Error)
+- Gradient Calculation
+- Gradient Descent Optimization
+- Feature Scaling using **Z-score Normalization**
+- Visualization of:
+  - Cost vs Iterations
+  - Actual vs Predicted Prices
 
 ---
 
@@ -26,9 +25,9 @@ The goal of this project is to understand how machine learning models work inter
 
 The dataset contains housing data with features such as:
 
-* House size
-* Number of bedrooms
-* Price (target variable)
+- House size
+- Number of bedrooms
+- Price (target variable)
 
 ---
 
@@ -36,31 +35,31 @@ The dataset contains housing data with features such as:
 
 ### 1. Data Preprocessing
 
-* Loaded dataset using pandas
-* Converted data to NumPy arrays
-* Applied **Z-score normalization** to both features and target
+- Loaded dataset using pandas
+- Converted data to NumPy arrays
+- Applied **Z-score normalization** to both features and target
 
 ### 2. Model Implementation
 
 The following components were implemented manually:
 
-* Cost Function:
+- Cost Function:
 
   [
   J(w,b) = \frac{1}{2m} \sum (f(x) - y)^2
   ]
 
-* Gradient Calculation
+- Gradient Calculation
 
-* Gradient Descent to update weights and bias
+- Gradient Descent to update weights and bias
 
 ---
 
 ### 3. Training
 
-* Initialized weights and bias
-* Used gradient descent to minimize cost
-* Tuned learning rate and iterations for convergence
+- Initialized weights and bias
+- Used gradient descent to minimize cost
+- Tuned learning rate and iterations for convergence
 
 ---
 
@@ -68,7 +67,7 @@ The following components were implemented manually:
 
 ### Cost vs Iteration
 
-![Cost Graph](images/ActualVsPredicted.png)
+![Cost Graph](images/CostVsIteratio.png)
 
 This graph shows how the cost decreases over time, indicating that gradient descent is converging.
 
@@ -85,11 +84,10 @@ It helps visualize how gradient descent moves towards the minimum.
 
 ### Actual vs Predicted Prices
 
-![Prediction Graph](images/CostVsIteration.png)
+![Prediction Graph](images/ActualVsPredicted.png)
 
-* Blue points represent predicted values
-* Red line represents perfect predictions (y = x)
-
+- Blue points represent predicted values
+- Red line represents perfect predictions (y = x)
 
 ---
 
@@ -101,28 +99,28 @@ Mean Squared Error (MSE) is used to evaluate model performance.
 
 ## 🚀 Key Learnings
 
-* Importance of **feature scaling** for stable training
-* Effect of **learning rate** on convergence
-* Understanding how gradient descent updates parameters
-* Difference between normalized values and real-world values
+- Importance of **feature scaling** for stable training
+- Effect of **learning rate** on convergence
+- Understanding how gradient descent updates parameters
+- Difference between normalized values and real-world values
 
 ---
 
 ## 🔮 Future Improvements
 
-* Implement model using **scikit-learn** for comparison
-* Add train/test split for better evaluation
-* Include more features for better predictions
-* Improve model performance
+- Implement model using **scikit-learn** for comparison
+- Add train/test split for better evaluation
+- Include more features for better predictions
+- Improve model performance
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib
+- Python
+- NumPy
+- Pandas
+- Matplotlib
 
 ---
 
