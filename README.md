@@ -67,7 +67,7 @@ The following components were implemented manually:
 
 ### Cost vs Iteration
 
-![Cost Graph](images/CostVsIteratio.png)
+![Cost Graph](images/CostVsIteration.png)
 
 This graph shows how the cost decreases over time, indicating that gradient descent is converging.
 
